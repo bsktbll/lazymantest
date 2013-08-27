@@ -5,7 +5,7 @@ describe 'login to weixinwork',:login do
 		@logindata = test_data "login"
 		@username=@logindata["user1"]
 		@userpassword=@logindata["password"]
-		p 
+		
 	end
 	it 'should login to weixinwork' do 
 		puts $navi.public_methods
