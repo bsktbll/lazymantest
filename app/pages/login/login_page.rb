@@ -9,6 +9,17 @@ class LoginPage < LazymantestPage
 		self.username=username
 		self.password=userpassword
 		self.submit
+		p 'login>>>>>>>>>>>>>>>>>>>1'
+		wait_for_ajax
+		p 'login>>>>>>>>>>>>>>>>>>>2'
+    	#退出向导
+    	turn_to IndexPage
+	end
+	def logout 
 
 	end
+	def disable_cookie
+	    self.browser.cookies.add "guide_home","excuted",:path => "/", :expires => 10.days.from_now
+	    self.browser.cookies.add "guide_upload_file","excuted",:path => "/", :expires => 10.days.from_now
+	  end
 end

@@ -7,8 +7,7 @@ describe 'login to weixinwork',:login do
 		@userpassword=@logindata["password"]
 		
 	end
-	it 'should login to weixinwork' do 
-		puts $navi.public_methods
+	it 'should login to weixinwork' do 		
 		login_page=$navi.goto_login_page    
 		
 		login_page.login @username,@userpassword
