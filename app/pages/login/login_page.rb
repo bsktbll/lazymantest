@@ -1,6 +1,6 @@
 #encoding:utf-8
 class LoginPage < LazymantestPage
-	page_url "https://www.weixinwork.com/users/sign_in"
+	page_url "https://www.weixinwork.com/accounts/sign_in"
 	text_field :username,:id=>'user_email'
 	text_field :password,:id=>'user_password'
 	button :submit,:name=>'commit'
@@ -10,7 +10,7 @@ class LoginPage < LazymantestPage
 		self.password=userpassword
 		self.submit
 		p 'login>>>>>>>>>>>>>>>>>>>1'
-		wait_for_ajax
+		wait_for_ajax 999,'timeout is 999'
 		p 'login>>>>>>>>>>>>>>>>>>>2'
     	#退出向导
     	turn_to IndexPage

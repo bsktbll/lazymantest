@@ -1,3 +1,7 @@
+def submit_miniapp page,data
+	page.data_driven data
+	@index_page.first_thread.should include_test_datas(data.values)
+end
 def login_to_index username=nil,password=nil
 
 	if username.nil? then

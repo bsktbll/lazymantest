@@ -1,5 +1,5 @@
 ---
-browser: ff
+browser: chrome
 host: www.weixinwork.com
 #login,
 tags: message

@@ -1,1 +1,8 @@
-content:测试发布消息内容
+update:
+    create:
+      update_input: "消息内容"
+      upload_file: "b.png"
+      submit_post:
+    reply:
+      reply_input: "回复消息内容"
+      submit_reply:

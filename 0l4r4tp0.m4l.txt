@@ -1,0 +1,25 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   app/cases/login/login_sp11ec.rb
+#	modified:   app/cases/shared/shared_examples.rb
+#	modified:   app/cases/spec_helper.rb
+#	new file:   app/defered_lib/element.rb
+#	new file:   app/lib/helpers.rb
+#	new file:   app/pages/index/index_page.rb
+#	modified:   app/pages/lazymantest_navigator.rb
+#	modified:   app/pages/lazymantest_page.rb
+#	modified:   app/pages/login/login_page.rb
+#	modified:   config/config.yml
+#
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	deleted:    app/cases/login/login_spec.rb
+#
+

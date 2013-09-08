@@ -19,6 +19,7 @@ class IndexPage < LazymantestPage
     end
   end
   def active_nav name
+    puts "@IndexPage.active_nav>>>>>>>>>>>>>>>>"
     self.execute_script %Q{
       // $(".apps-more .dropdown").addClass("open");
       $("li[data-mmodule-name='#{name}']").trigger("click");
